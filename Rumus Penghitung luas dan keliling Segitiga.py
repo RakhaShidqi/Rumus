@@ -1,0 +1,21 @@
+print(" #===========================================================================#")
+print(" #================     Aplikasi Penghitung luas Segitiga     ================#")
+print(" #================           dan keliling Segitiga           ================#")   
+print(" #===========================================================================#")
+print(" #================ Developed and maintained by RakhaShidqi ==================#")
+print("                                                                              ")
+
+#Fungsi Untuk masukkan input Panjang dan Lebar
+alas = float(input("Masukkan Alas Segitiga: "))
+tinggi = float(input("Masukkan Tinggi Segitiga: "))
+sisi = float(input("Masukkan sisi Segitiga: "))
+print("                                                                              ")
+
+#Fungsi Untuk Membuat Rumus
+keliling = sisi+sisi+sisi
+luas     = 0.5*alas*tinggi
+
+#Fungsi Untuk Mengeluarkan Outputnya
+print("Jadi keliling Segitiga Adalah: ",keliling)
+print("Jadi Luas Segitiga Adalah: ",luas)
+print("                                                                              ")
