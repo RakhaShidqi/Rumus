@@ -1,0 +1,20 @@
+print(" #===========================================================================#")
+print(" #================  Aplikasi Penghitung luas persegi Panjang ================#")
+print(" #================        dan keliling Persegi Panjang       ================#")   
+print(" #===========================================================================#")
+print(" #================ Developed and maintained by RakhaShidqi ==================#")
+print("                                                                              ")
+
+#Fungsi Untuk masukkan input Panjang dan Lebar
+panjang = float(input("Masukkan Panjang Persegi Panjang: "))
+lebar = float(input("Masukkan Lebar Persegi Panjang: "))
+print("                                                                              ")
+
+#Fungsi Untuk Membuat Rumus
+keliling = 2*(panjang+lebar)
+luas     = panjang*lebar
+
+#Fungsi Untuk Mengeluarkan Outputnya
+print("Jadi keliling Persegi panjang Adalah: ",keliling)
+print("Jadi Luas Persegi Panjang Adalah: ",luas)
+print("                                                                              ")
