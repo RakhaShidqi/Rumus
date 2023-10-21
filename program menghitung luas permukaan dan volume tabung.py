@@ -1,7 +1,12 @@
-print(" #===========================================================================#")
-print(" #================ Aplikasi Penghitung luas permukaan tabung ================#")
-print(" #================             dan volume tabung             ================#")
-print(" #===========================================================================#")
+from termcolor import colored
+from pyfiglet import figlet_format
+
+print(colored(figlet_format("Private Tools", font = "slant"), 'yellow'))
+print(" #===========================================================================#"),'yellow'))
+print(" #================ Aplikasi Penghitung luas permukaan tabung ================#"),'yellow'))
+print(" #================             dan volume tabung             ================#")'yellow'))
+print(" #===========================================================================#")'yellow'))
+print(colored(("           Developed and maintained by RakhaShidqi                  "),'yellow'))
 print("                                                                              ")
 
 #Fungsi Untuk masukkan input jari jari dan tinggi
